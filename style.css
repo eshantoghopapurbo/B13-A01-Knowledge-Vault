@@ -129,6 +129,9 @@
   display: flex;
   justify-content: space-around;
 }
+.about-info p{
+  color: #627382;
+}
 .info-card h2 {
   margin-top: 6px;
   margin-bottom: 6px;
@@ -136,16 +139,37 @@
 
 .select p {
   display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .solution-container {
   display: flex;
-
+  margin-top: 100px;
   align-items: center;
   margin-right: 220px;
-  margin-left: 20px;
+  margin-left: 280px;
+  gap:  60px;
 }
-.right-side {
-  margin-top: 120px;
-  margin-left: 60px;
+.right-side h2{
+ font-size: 48px;
+ font-weight:  bold;
+ margin-top: 16px;
+ margin-bottom: 16px;
 }
+
+.solution{
+
+  font-size: 16px;
+  color: #469165;
+
+  
+}
+.select{
+  margin-top: 16px;
+}
+
+.paragrapgh {
+  color: #627382;
+}
+
