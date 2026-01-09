@@ -173,3 +173,46 @@
   color: #627382;
 }
 
+
+ /* early Access Section */
+
+ #access-section {
+
+padding-top: 130px;
+
+ }
+
+ #access-section .access {
+  /* width: 71%; */
+
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  margin-bottom: 100px;
+ }
+
+/* .access button {
+  display: flex;
+  align-items: center;
+}
+.access-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
+
+.access h2{
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+.access p{
+  color: #627382;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+.credit {
+  margin-top: 16px;
+}
