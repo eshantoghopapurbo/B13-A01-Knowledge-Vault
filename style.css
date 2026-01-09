@@ -216,3 +216,28 @@ padding-top: 130px;
 .credit {
   margin-top: 16px;
 }
+
+/* footer section */
+
+#section-desing {
+  background-color: #001931;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.footer{
+  background-color: #001931;
+    padding: 120px 30px 120px 120px;
+
+}
+.social-icons{
+  color: white;
+}
+.footer-text{
+  color: white;
+  text-align: center;
+  border-top: 1px solid gray;
+  /* margin-top: 40px; */
+  padding: 40px;
+}
