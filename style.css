@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navber section */
+.nav-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+.section {
+  width: 367px;
+  height: 24px;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: #30b868;
+  padding: 12px;
+  color: white;
+}
+
+/* hero section */
+
+.hero-section {
+  width: 1910px;
+  height: 670px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.access-btn {
+  width: 229px;
+  height: 35px;
+  padding-top: 0%;
+  border-radius: 20px;
+  justify-content: center;
+  color: #30b868;
+}
+
+.heading {
+  font-style: Bold;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.heading-green {
+  color: #30b868;
+}
+
+.paragrapgh {
+  font-size: 24px;
+  color: white;
+}
+
+.banner-btn {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.btnn {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #30b868;
+  color: #FFFFFF;
+}
+
+
+/* notes section */
+
+#notes{
+  background-color: red;
+  padding-top: 120px;
+}
+
+#notes .notes-container{
+  width: 71%;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-hedding {
+  max-width: 1360px;
+  text-align: center;
+  gap: 16;
+  margin-top:50px;
+}
+.section-hedding h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.section-hedding p{
+  font-size: 16px;
+  margin-bottom: 44px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.info-card  {
+max-width: 322px;
+box-shadow: 0 6px 50px 0 #00000026;
+border-radius: 8px;
+padding: 40px;
+}
+
+.info-card img{
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+.about-info{
+ 
+  
+  display: flex;
+  justify-content: space-around;
+}
+.info-card h2{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+
+.select p {
+
+  display: flex;
+
+}
+
+/* .solution-container {
+  display: flex;
+
+align-items: center;
+margin-right: 220px;
+margin-left: 20px;
+}
+.right-side{
+  margin-top: 120px;
+  margin-left: 60px;
+}  */
